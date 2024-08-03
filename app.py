@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configuration
-GCS_BUCKET_NAME = 'medical_dat'
+GCS_BUCKET_NAME = 'ecom_data_2024'
 
 def upload_to_gcs(file, filename):
     """Upload a file to a GCS bucket."""
